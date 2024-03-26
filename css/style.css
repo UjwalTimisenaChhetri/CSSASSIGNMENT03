@@ -1,0 +1,586 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.main{
+    height: 80vh;
+    width: 100%;
+    background: linear-gradient(rgb(4 3 3/60%),
+    rgb(0 0 0/33%)), url(../img/kitkatbackimage.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.main-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 40%;
+    margin: auto;
+    height: 150vh;
+}
+.smallheadings{
+    color: #9c8c7a;
+    letter-spacing: 2px;
+    
+}
+
+.heading{
+    color: rgb(87, 40, 40);
+   
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+    text-shadow: 2px 2px 5px white;
+}
+.info{
+    font-size: 12px;
+    color: #9c8c7a;
+    padding: 2% 0;
+    
+   
+}
+
+.sec{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 3% 0;
+   
+}
+.secvideo{
+    text-align: center;
+    display: block;
+    width: 80%;
+    margin: auto;
+    
+}
+video {
+    margin-top: 2%;
+    height: 80vh; 
+}
+.storybox{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+    
+
+}
+.img{
+    width: 40%;
+}
+.storybox img{
+    width: 80%;
+}
+.story{
+    width: 35%;
+    align-self: center;
+    text-align: left;
+}
+ .story h1{
+    color: #ff6b00;
+   
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+}
+.companyinfo{
+    display: flex;
+    justify-content: center;
+    margin: 2% 0;
+}
+.company{
+    width: 35%;
+    align-self: center;
+    text-align: left;
+}
+.companypic{
+    width: 30%;
+}
+.company h1{
+    color: #ff6b00;
+   
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+
+}
+
+.box:hover {
+    transform: scale(1.3); 
+}
+.box{
+    
+    margin: 0 30px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+.box p{
+    font-size: 12px;
+    color: #9c8c7a;
+    padding: 2% 0;
+}
+.box h2{
+    background-color: #3d1f0a;
+    color: white;
+    padding: 12px 0px;
+}
+.flavour{
+    display: flex;
+    justify-content: center;
+    margin: 6% 0;
+}
+.imgages{
+    
+    margin: 0 30px;
+    
+}
+.imgages img{
+    
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, #0003);
+
+}
+
+
+.imgages:hover{
+    transform: scale(1.2); 
+}
+
+.about{
+    background: url(../img/kitkatpic2.jpeg) no-repeat center center/cover;
+   
+    height: 45vh;
+    margin-bottom: 5%;
+    position: relative;
+}
+.about-box{
+    position: absolute;
+    top: 56%;
+    width: 50%;
+    left: 25%;
+    padding: 12px;
+    background-color: whitesmoke;
+}
+.about-box h1{
+    color: #ff6b00;
+   
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+}
+.company{
+    
+
+    margin-top: 2%;
+   
+}
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .logo-container {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .logo-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .form-container {
+    flex: 2;
+    padding: 20px;
+    color: aliceblue;
+    position: relative; 
+    background: linear-gradient(rgb(143, 0, 0), rgba(190, 68, 68, 0.988))  ;
+  }
+  
+  .form-container h2 {
+    color: #ff6b00;
+   
+    font-family: 'Courgette', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea,
+  button {
+    width: 40%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .centered-text {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .about-us {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    text-align: center;
+  }
+  
+  .about-us h3 {
+    font-size: 1.5em;
+    font-family: 'Courgette', cursive;
+    color: #ff6b00;
+    margin-bottom: 10px;
+  }
+  
+  .about-us p {
+    font-family: 'Courgette', cursive;
+    line-height: 1.5;
+  }
+  .centered-text{
+    font-family: 'Courgette', cursive;
+    color: #ff6b00;
+  }
+
+  
+@media only screen and (max-width:1400px) {
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .main{
+    height: 80vh;
+    }
+    .main-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 40%;
+        margin: auto;
+        height: 150vh;
+    }
+    .heading{
+        
+        font-size: 30px;
+        
+    }
+    .imgages img{
+        width: 150px;
+        height: 150px;
+    }
+    .storybox{
+        
+        align-items: center;
+    }
+   
+    video {
+        display: block;
+        height: 80vh; 
+        
+        margin: auto;
+        
+    }
+    .story,.img {
+        width:50%;
+        padding-bottom: 2%;   
+    }
+    .box{
+        margin: 10px 30px;
+    }
+    .about-box{
+        top: 30%;
+        width: 72%;
+        left: 14%;
+    }
+    .Con-box{
+        width: 50%;
+        left: 15%;
+    }
+    
+    .main-heading{
+        width: 60%;
+    }
+    .about-us p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .main{
+    height: 80vh;
+    }
+    .main-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 40%;
+        margin: auto;
+        height: 150vh;
+    }
+    .heading{
+        
+        font-size: 30px;
+        
+    }
+    .imgages img{
+        width: 150px;
+        height: 150px;
+    }
+    .storybox{
+        
+        align-items: center;
+    }
+   
+    video {
+        display: block;
+        height: 44vh; 
+        
+        margin: auto;
+        
+    }
+    .story,.img {
+        width:50%;
+        padding-bottom: 2%;   
+    }
+    .box{
+        margin: 10px 30px;
+    }
+    .about-box{
+        top: 30%;
+        width: 72%;
+        left: 14%;
+    }
+    .Con-box{
+        width: 50%;
+        left: 15%;
+    }
+    
+    .main-heading{
+        width: 60%;
+    }
+    
+
+    
+}
+
+
+@media only screen and (max-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .main{
+    height: 30vh;
+    }
+    .main-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 40%;
+        margin: auto;
+        height: 55vh;
+    }
+    .heading{
+        
+        font-size: 23px;
+        
+    }
+    .imgages img{
+        width: 80px;
+        height: 80px;
+    }
+    .storybox{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    video {
+        display: block;
+        height: 30vh; 
+        
+        margin: auto;
+        
+    }
+    .story,.img {
+        width:40%;
+        padding-bottom: 2%;   
+    }
+    .box{
+        margin: 10px 30px;
+    }
+    .about-box{
+        top: 30%;
+        width: 72%;
+        left: 14%;
+       
+    }
+   
+    
+    .Con-box{
+        width: 70%;
+        left: 15%;
+    }
+    
+    .main-heading{
+        width: 60%;
+    }
+    .about-us p {
+        font-size: 10px;
+    }
+    input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+   .about{
+    margin-bottom: 8%;
+   }
+
+}
+
+@media only screen and (max-width:480px){
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .main{
+    height: 30vh;
+    }
+    .main-heading{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 40%;
+        margin: auto;
+        height: 55vh;
+    }
+    .sec{
+        margin-bottom: 170px;
+    }
+    .heading{
+        
+        font-size: 15px;
+        
+    }
+    .imgages img{
+        width: 50px;
+        height: 60px;
+    }
+    .storybox{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+    video {
+        display: block;
+        height: 20vh; 
+        
+        margin: auto;
+        
+    }
+    .story,.img {
+        width:40%;
+        padding-bottom: 2%;   
+    }
+    .box{
+        margin: 10px 30px;
+    }
+    .about-box{
+        top: 30%;
+        width: 72%;
+        left: 14%;
+       
+    }
+    
+   
+    .Con-box{
+        width: 70%;
+        left: 15%;
+    }
+    
+    .main-heading{
+        width: 60%;
+    }
+    .about-us h3 {
+        font-size: 1px;
+        font-family: 'Courgette', cursive;
+        color: #ff6b00;
+        margin-bottom: 10px;
+        
+        
+      }
+      
+      .about-us p {
+        font-family: 'Courgette', cursive;
+        font-size: 1px;
+        
+      }
+      
+      input,
+  textarea,
+  button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+   .companypic{
+    width: 80%;
+    height: 40%;
+    padding-top: 30%;
+    padding-left: 20%;
+    
+   }
+   .company h1{
+    
+    font-size: 20px;
+   }
+   .about{
+    margin-bottom: 8%;
+   }
+
+}
+
+
+
